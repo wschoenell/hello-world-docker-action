@@ -5,5 +5,8 @@ FROM alpine:3.10
 COPY entrypoint.sh /entrypoint.sh
 
 RUN echo "bla" $1
+
+RUN echo william
+
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
 ENTRYPOINT ["/entrypoint.sh"]

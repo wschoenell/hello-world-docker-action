@@ -1,6 +1,7 @@
 on: [push]
 
 jobs: 
-  uses: actions/hello-world-docker-action@master
-  with:
-    who-to-greet: 'Mona the Octocat'
+  - name: xxx
+    uses: actions/hello-world-docker-action@master
+    with:
+      who-to-greet: 'Mona the Octocat'

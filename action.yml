@@ -14,4 +14,4 @@ runs:
   args:
     - ${{ inputs.who-to-greet }}
   env:
-    VAR: "xxxx"
+    VAR: "MYVAR"

@@ -6,6 +6,6 @@ jobs:
     name: GMT checks
     steps:
       - name: xxx
-        uses: actions/hello-world-docker-action@master
+        uses: ./
         with:
           who-to-greet: 'Mona the Octocat'

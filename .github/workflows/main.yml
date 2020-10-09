@@ -1,7 +1,11 @@
 on: [push]
 
 jobs: 
-  - name: xxx
-    uses: actions/hello-world-docker-action@master
-    with:
-      who-to-greet: 'Mona the Octocat'
+  gmt_checks:
+    runs-on: ubuntu-latest
+    name: GMT checks
+    steps:
+      - name: xxx
+        uses: actions/hello-world-docker-action@master
+        with:
+          who-to-greet: 'Mona the Octocat'
